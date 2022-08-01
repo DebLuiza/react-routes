@@ -1,0 +1,38 @@
+.home{
+    color: rgb(255, 253, 240);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4%;
+    height: auto;
+    width: 100%;
+    margin-bottom: 1rem;
+
+    .title{
+        border: 1px solid rgb(255, 94, 0);
+        box-shadow: inset 0 0 4px rgb(255, 94, 0);
+        width: 96%;
+        display: flex;
+        width: 89%;
+        border-radius: 10px;
+        justify-content: center;
+        padding: 1.5rem;
+        color: white;
+        font-weight: bold;
+
+        label{
+            border-bottom: 2px solid rgb(255, 94, 0);
+        }
+    }
+
+    .sub-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+
+    }
+    .outlet{
+        display: flex;
+    }
+}

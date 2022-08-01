@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(17, 17, 17);
+    min-height: 101vh;
+}
+.nav{
+    background-color: rgb(255, 153, 0);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+
+    .link-nav{
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+        border-bottom: 2px solid white;
+    }
+}

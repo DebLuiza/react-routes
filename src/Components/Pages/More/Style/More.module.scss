@@ -1,0 +1,43 @@
+.more{
+    color: rgb(255, 253, 240);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4%;
+    height: auto;
+    width: 100%;
+    margin-bottom: 1rem;
+
+    .title{
+        border: 1px solid rgb(255, 174, 0);
+        box-shadow: inset 0 0 4px rgb(255, 174, 0);
+        width: 89%;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        padding: 1.5rem;
+        color: white;
+        font-weight: bold;
+
+        label{
+            border-bottom: 2px solid rgb(255, 174, 0);
+        }
+    }
+
+    .sub-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+
+        a{
+            border: 1px solid orange;
+            background-color: transparent;
+            color: orange;
+        }
+
+    }
+    .outlet{
+        display: flex;
+    }
+}

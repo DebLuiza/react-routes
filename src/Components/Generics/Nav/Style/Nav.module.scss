@@ -1,0 +1,31 @@
+.sub-nav{
+    margin-top: 1rem;
+    padding: 5px 6px;
+    background-color: rgb(17, 17, 17);
+    width: 98%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    gap: 2rem;
+
+    .arrow{
+        width: 50px;
+        height: 30px;
+    }
+
+    .bolinha{
+        width: 3.5rem;
+        height: 3.5rem;
+        border: 1px solid orange;
+        background-color: orange;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        font-size: 1.5rem;
+    }
+}
